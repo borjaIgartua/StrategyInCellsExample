@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EDEE7F1C771C3E0014D968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEE7E1C771C3E0014D968 /* main.m */; };
+		00EDEE821C771C3E0014D968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEE811C771C3E0014D968 /* AppDelegate.m */; };
+		00EDEE851C771C3E0014D968 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEE841C771C3E0014D968 /* MainViewController.m */; };
+		00EDEE8A1C771C3E0014D968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EDEE891C771C3E0014D968 /* Assets.xcassets */; };
+		00EDEE8D1C771C3E0014D968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EDEE8B1C771C3E0014D968 /* LaunchScreen.storyboard */; };
+		00EDEEA61C772BB50014D968 /* SportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEEA51C772BB50014D968 /* SportCell.m */; };
+		00EDEEAC1C772E890014D968 /* CombatSportViewDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEEAB1C772E890014D968 /* CombatSportViewDrawer.m */; };
+		00EDEEAF1C772F500014D968 /* ExtremeSportViewDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEEAE1C772F500014D968 /* ExtremeSportViewDrawer.m */; };
+		00EDEEB51C7732F60014D968 /* CombatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEEB41C7732F60014D968 /* CombatView.m */; };
+		00EDEEB81C7733070014D968 /* ExtremeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EDEEB71C7733070014D968 /* ExtremeView.m */; };
+		00EF902D1C78681200C543B0 /* Sport.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EF902C1C78681200C543B0 /* Sport.m */; };
+		00EF90301C78688F00C543B0 /* Sport+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EF902F1C78688F00C543B0 /* Sport+Item.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00EDEE7A1C771C3E0014D968 /* StragetyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StragetyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EDEE7E1C771C3E0014D968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00EDEE801C771C3E0014D968 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00EDEE811C771C3E0014D968 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00EDEE831C771C3E0014D968 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		00EDEE841C771C3E0014D968 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		00EDEE891C771C3E0014D968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00EDEE8C1C771C3E0014D968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00EDEE8E1C771C3E0014D968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EDEEA01C7728160014D968 /* ViewCellItemInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCellItemInterface.h; sourceTree = "<group>"; };
+		00EDEEA11C7728300014D968 /* ViewDrawerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDrawerInterface.h; sourceTree = "<group>"; };
+		00EDEEA41C772BB50014D968 /* SportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportCell.h; sourceTree = "<group>"; };
+		00EDEEA51C772BB50014D968 /* SportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportCell.m; sourceTree = "<group>"; };
+		00EDEEAA1C772E890014D968 /* CombatSportViewDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombatSportViewDrawer.h; sourceTree = "<group>"; };
+		00EDEEAB1C772E890014D968 /* CombatSportViewDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombatSportViewDrawer.m; sourceTree = "<group>"; };
+		00EDEEAD1C772F500014D968 /* ExtremeSportViewDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeSportViewDrawer.h; sourceTree = "<group>"; };
+		00EDEEAE1C772F500014D968 /* ExtremeSportViewDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeSportViewDrawer.m; sourceTree = "<group>"; };
+		00EDEEB31C7732F60014D968 /* CombatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombatView.h; sourceTree = "<group>"; };
+		00EDEEB41C7732F60014D968 /* CombatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombatView.m; sourceTree = "<group>"; };
+		00EDEEB61C7733070014D968 /* ExtremeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtremeView.h; sourceTree = "<group>"; };
+		00EDEEB71C7733070014D968 /* ExtremeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtremeView.m; sourceTree = "<group>"; };
+		00EF902B1C78681200C543B0 /* Sport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sport.h; sourceTree = "<group>"; };
+		00EF902C1C78681200C543B0 /* Sport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sport.m; sourceTree = "<group>"; };
+		00EF902E1C78688F00C543B0 /* Sport+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sport+Item.h"; sourceTree = "<group>"; };
+		00EF902F1C78688F00C543B0 /* Sport+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sport+Item.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00EDEE771C771C3E0014D968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EDEE711C771C3E0014D968 = {
+			isa = PBXGroup;
+			children = (
+				00EDEE7C1C771C3E0014D968 /* StragetyExample */,
+				00EDEE7B1C771C3E0014D968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00EDEE7B1C771C3E0014D968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEE7A1C771C3E0014D968 /* StragetyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00EDEE7C1C771C3E0014D968 /* StragetyExample */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEE961C771F4A0014D968 /* Model */,
+				00EDEE951C771D170014D968 /* Core */,
+				00EDEE941C771D100014D968 /* Code */,
+				00EDEE891C771C3E0014D968 /* Assets.xcassets */,
+				00EDEE8B1C771C3E0014D968 /* LaunchScreen.storyboard */,
+				00EDEE8E1C771C3E0014D968 /* Info.plist */,
+				00EDEE7D1C771C3E0014D968 /* Supporting Files */,
+			);
+			path = StragetyExample;
+			sourceTree = "<group>";
+		};
+		00EDEE7D1C771C3E0014D968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEE7E1C771C3E0014D968 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00EDEE941C771D100014D968 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEE9F1C7728020014D968 /* Strategy pattern */,
+				00EDEE831C771C3E0014D968 /* MainViewController.h */,
+				00EDEE841C771C3E0014D968 /* MainViewController.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		00EDEE951C771D170014D968 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEE801C771C3E0014D968 /* AppDelegate.h */,
+				00EDEE811C771C3E0014D968 /* AppDelegate.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		00EDEE961C771F4A0014D968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00EF902B1C78681200C543B0 /* Sport.h */,
+				00EF902C1C78681200C543B0 /* Sport.m */,
+				00EF902E1C78688F00C543B0 /* Sport+Item.h */,
+				00EF902F1C78688F00C543B0 /* Sport+Item.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00EDEE9F1C7728020014D968 /* Strategy pattern */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEEA31C772B8E0014D968 /* Views */,
+				00EDEEA21C772B800014D968 /* ViewDrawers */,
+				00EDEEA01C7728160014D968 /* ViewCellItemInterface.h */,
+				00EDEEA11C7728300014D968 /* ViewDrawerInterface.h */,
+				00EDEEA41C772BB50014D968 /* SportCell.h */,
+				00EDEEA51C772BB50014D968 /* SportCell.m */,
+			);
+			name = "Strategy pattern";
+			sourceTree = "<group>";
+		};
+		00EDEEA21C772B800014D968 /* ViewDrawers */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEEAA1C772E890014D968 /* CombatSportViewDrawer.h */,
+				00EDEEAB1C772E890014D968 /* CombatSportViewDrawer.m */,
+				00EDEEAD1C772F500014D968 /* ExtremeSportViewDrawer.h */,
+				00EDEEAE1C772F500014D968 /* ExtremeSportViewDrawer.m */,
+			);
+			name = ViewDrawers;
+			sourceTree = "<group>";
+		};
+		00EDEEA31C772B8E0014D968 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00EDEEB31C7732F60014D968 /* CombatView.h */,
+				00EDEEB41C7732F60014D968 /* CombatView.m */,
+				00EDEEB61C7733070014D968 /* ExtremeView.h */,
+				00EDEEB71C7733070014D968 /* ExtremeView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00EDEE791C771C3E0014D968 /* StragetyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EDEE911C771C3E0014D968 /* Build configuration list for PBXNativeTarget "StragetyExample" */;
+			buildPhases = (
+				00EDEE761C771C3E0014D968 /* Sources */,
+				00EDEE771C771C3E0014D968 /* Frameworks */,
+				00EDEE781C771C3E0014D968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StragetyExample;
+			productName = StragetyExample;
+			productReference = 00EDEE7A1C771C3E0014D968 /* StragetyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00EDEE721C771C3E0014D968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Borja;
+				TargetAttributes = {
+					00EDEE791C771C3E0014D968 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 00EDEE751C771C3E0014D968 /* Build configuration list for PBXProject "StragetyExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00EDEE711C771C3E0014D968;
+			productRefGroup = 00EDEE7B1C771C3E0014D968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00EDEE791C771C3E0014D968 /* StragetyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00EDEE781C771C3E0014D968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EDEE8D1C771C3E0014D968 /* LaunchScreen.storyboard in Resources */,
+				00EDEE8A1C771C3E0014D968 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00EDEE761C771C3E0014D968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EF902D1C78681200C543B0 /* Sport.m in Sources */,
+				00EDEEAC1C772E890014D968 /* CombatSportViewDrawer.m in Sources */,
+				00EDEEB81C7733070014D968 /* ExtremeView.m in Sources */,
+				00EDEE851C771C3E0014D968 /* MainViewController.m in Sources */,
+				00EDEE821C771C3E0014D968 /* AppDelegate.m in Sources */,
+				00EDEEAF1C772F500014D968 /* ExtremeSportViewDrawer.m in Sources */,
+				00EDEEA61C772BB50014D968 /* SportCell.m in Sources */,
+				00EF90301C78688F00C543B0 /* Sport+Item.m in Sources */,
+				00EDEEB51C7732F60014D968 /* CombatView.m in Sources */,
+				00EDEE7F1C771C3E0014D968 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00EDEE8B1C771C3E0014D968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00EDEE8C1C771C3E0014D968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00EDEE8F1C771C3E0014D968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00EDEE901C771C3E0014D968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00EDEE921C771C3E0014D968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StragetyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bi.strategy.StragetyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00EDEE931C771C3E0014D968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StragetyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bi.strategy.StragetyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EDEE751C771C3E0014D968 /* Build configuration list for PBXProject "StragetyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EDEE8F1C771C3E0014D968 /* Debug */,
+				00EDEE901C771C3E0014D968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00EDEE911C771C3E0014D968 /* Build configuration list for PBXNativeTarget "StragetyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EDEE921C771C3E0014D968 /* Debug */,
+				00EDEE931C771C3E0014D968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00EDEE721C771C3E0014D968 /* Project object */;
+}
